@@ -1,0 +1,16 @@
+import turtle
+
+turtle.showturtle()
+
+
+
+longitud = 150
+angulo = 244
+
+turtle.fillcolor('blue')
+turtle.begin_fill()
+for i in range(200):
+    
+    turtle.forward(longitud)
+    turtle.right(angulo)
+turtle.end_fill()
